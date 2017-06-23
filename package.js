@@ -1,6 +1,6 @@
 Package.describe({
   name: 'mrmasly:dataload',
-  version: '0.0.2',
+  version: '0.0.4',
   summary: 'meteor dataload',
   git: 'https://github.com/mrMasly/meteor-dataload',
   documentation: 'README.md'

@@ -1,5 +1,5 @@
 # CONFIRM_CODE = '4/NRTLGVYKfDRI0jCBgNyb2Jv1aSbSf3O7MKWP32cfbGk'
-googleAPIfile = Meteor.root+'/googleapis.json'
+googleAPIfile = Meteor.root+'/../googleapis.json'
 Fiber    = require 'fibers'
 fs       = require 'fs'
 readline = require 'readline'
@@ -10,8 +10,8 @@ googleAuth = require 'google-auth-library'
 # SCOPES = [ 'https://www.googleapis.com/auth/drive.metadata.readonly' ]
 SCOPES = [ 'https://spreadsheets.google.com/feeds', 'https://docs.google.com/feeds','https://www.googleapis.com/auth/drive.file']
 # TOKEN_DIR = (process.env.HOME or process.env.HOMEPATH or process.env.USERPROFILE) + '/.credentials/'
-TOKEN_DIR = Meteor.root + '/.google'
-TOKEN_PATH = TOKEN_DIR + '/api_token.json'
+TOKEN_DIR = Meteor.root + '/../.google'
+TOKEN_PATH = TOKEN_DIR + '/drive-nodejs-quickstart.json'
 # Load client secrets from a local file.
 
 
